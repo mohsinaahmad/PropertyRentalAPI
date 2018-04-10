@@ -1,0 +1,63 @@
+{
+  "name": "restful-api-express-mongoose",
+  "version": "1.0.0",
+  "description": "Example of a RESTful API built with Node.js, Express.js and Mongoose.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedosejev/restful-api-express-mongoose.git"
+  },
+  "author": "Artemij Fedosejev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedosejev/restful-api-express-mongoose/issues"
+  },
+  "homepage": "https://github.com/fedosejev/restful-api-express-mongoose",
+  "dependencies": {
+    "async": "^2.5.0",
+    "aws-sdk": "^2.92.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.14.1",
+    "chalk": "^1.1.3",
+    "cheerio": "^0.22.0",
+    "compression": "^1.6.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "ejs": "~2.3.3",
+    "email-templates": "^2.6.0",
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.3",
+    "express-ejs-layouts": "^2.1.0",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.14.2",
+    "express-status-monitor": "^0.1.5",
+    "express-validator": "^3.1.2",
+    "feed-read-parser": "0.0.6",
+    "handlebars": "^4.0.10",
+    "lusca": "^1.4.1",
+    "mime": "^1.3.6",
+    "morgan": "^1.7.0",
+    "multer": "^1.3.0",
+    "node-gyp": "^3.6.2",
+    "node-rest-client": "^3.1.0",
+    "node-sass-middleware": "^0.11.0",
+    "nodemailer": "^3.1.7",
+    "nodemailer-smtp-transport": "^2.5.0",
+    "passport": "0.3.2",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-oauth": "^1.0.0",
+    "request": "^2.78.0",
+    "rethinkdb": "^2.3.3",
+    "rethinkdbdash": "^2.3.31",
+    "s3": "^4.4.0",
+    "thinky": "^2.3.8",
+    "validator": "^7.0.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Activate Account Template</title>
+</head>
+
+<body bgcolor="#dedede">
+    <table style="margin-top: 50px; font-family: Verdana,Geneva,sans-serif;" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#dedede">
+        <tr>
+            <td>
+                <table style="border-radius: 9px;box-shadow: 0 0 4px rgba(0,0,0,0.19);" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFF" align="center">
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td colspan="3" style="text-align:center; padding:20px 0 5px 0 ;"><img src="http://{{ host }}/img/logo.png" alt="#" /></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0 10px">
+                            <table  width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                               
+                                    <td width="100%" align="left" valign="top">
+                                        <font style="border-radius: 4px; color: #FFF; font-size: 18px; background-color: #3c8dbc; float: left; padding: 2px 2%; width: 96%;"><em>Hi, {{ firstName }} {{ lastName }}!</em></font>
+                                        <br />
+                                        <br />
+                                        <font style="padding-top:8px;float:left; font-family: Verdana, Geneva, sans-serif; color:#444; font-size:13px; line-height:21px">
+                                            Please <a href="http://{{ host }}/reset/{{ passwordResetToken }}">Click Here </a> to reset your password <br /> If you did not request this, please ignore this email and your password will remain unchanged.
+                                        </font>
+                                        <br/>
+                                        <br />
+                                        <b style="padding-top:4px;padding-bottom: 20px; float:left; font-family: Verdana, Geneva, sans-serif; color:#444; font-size:13px; line-height:21px">Thank you!</b>
+                                    </td>
+                                    
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                   
+                    
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
